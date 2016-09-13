@@ -1,0 +1,153 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #ddd;
+  margin: 0;
+}
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+main {
+  padding: 0 10px;
+}
+h1 {
+  text-align: center;
+  margin: 20px 5px;
+  font-size: 32px;
+}
+h1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  position: relative;
+  top: -20px;
+  background: -webkit-linear-gradient(to right, #ddd 0%,#555 50%,#ddd 100%);
+  background: linear-gradient(to right, #ddd 0%,#555 50%,#ddd 100%);
+}
+h1 span {
+  background-color: #ddd;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+nav {
+  background-color: rgba(0,0,0,.7);
+  padding: 5px;
+  margin-bottom: 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav li {
+  font-size: 18px;
+  display: inline-block;
+  border-right: 1px solid #777;
+  padding: 2px 8px;
+  color: #9cf;
+}
+nav li a {
+  color: #ddd;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: #59d;
+}
+nav li:last-child {
+  border: 0;
+}
+h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  color: #555;
+}
+.f {
+  width: 100%;
+  float: left;
+}
+@media (min-width: 650px) and (max-width: 999px) {
+  .f {
+    width: calc(50% - 10px);
+    margin-right: 20px;
+  }
+  .f:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1000px) {
+  .f {
+    width: calc(25% - 15px);
+    float: left;
+    margin-right: 20px;
+  }
+  .f:last-child {
+    margin-right: 0;
+  }
+}
+.f ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.f li {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 2px #bbb;
+}
+.f li:hover {
+  box-shadow: 0 3px 6px #bbb;
+}
+li > h3 {
+  position: relative;
+  margin: 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: #23538A;
+  background-size: cover;
+  font-size: 14px;
+  font-weight: bold;
+}
+li > h3[style] {
+  min-height: 200px;
+}
+li > h3 a {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+li > h3[style] a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0;
+}
+li > h3 a:hover {
+  text-decoration: underline;
+}
+li > p {
+  margin: 10px;
+  color: #666;
+}
+li > p a {
+  color: #666;
+  text-decoration: none;
+}
+time {
+  display: block;
+  border-top: 1px solid #ddd;
+  padding-top: 5px;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #999;
+}
