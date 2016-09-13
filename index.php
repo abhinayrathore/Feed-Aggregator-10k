@@ -78,4 +78,4 @@ foreach ($blogs as $site => $url) {
 	flush();
 }
 echo "</main>";
-?><script>ip='<?=$_SERVER['REMOTE_ADDR'];?>';</script><script src="j/main.js"></script></body></html>
+?><script>ip='<?=$_SERVER['REMOTE_ADDR'];?>';</script><script src="j/m.js"></script></body></html>
