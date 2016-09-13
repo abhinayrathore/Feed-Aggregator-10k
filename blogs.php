@@ -1,6 +1,6 @@
 <?
 $BLOGS = array(
-	"Dev" => array(
+  "Dev" => array(
     "A List Apart" => "http://alistapart.com/main/feed",
     "SitePoint" => "https://www.sitepoint.com/feed/",
     "David Walsh" => "https://davidwalsh.name/feed",
