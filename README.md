@@ -8,6 +8,8 @@ As part of the [10k Apart Challenge](https://a-k-apart.com) I built this simple 
 * Under 10kb of initial payload
 * Follows web accessibility guidelines
 * Mobile first responsive design
+* Works with older browsers (IE9+)
+* Uses progressive enhancement to add features
 
 ## Under 10kb limit
 
