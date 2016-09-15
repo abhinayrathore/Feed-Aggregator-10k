@@ -59,7 +59,7 @@ function getBlogFeedHtml($site, $url) {
 	
 	return $html;
 }
-?><!doctype html><html><head><title>Blog Reader</title><link rel="stylesheet" href="c/m.css"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body><?
+?><!doctype html><html><head><title>Blog Reader</title><style><?include 'c/m.css';?></style><meta name="viewport" content="width=device-width,initial-scale=1"></head><body><?
 echo "<nav><ul>";
 foreach ($categories as $c) {
 	if ($c == $category) { // if current category, don't provide the link
@@ -78,4 +78,4 @@ foreach ($blogs as $site => $url) {
 	flush();
 }
 echo "</main>";
-?><script>ip='<?=$_SERVER['REMOTE_ADDR'];?>';</script><script src="j/m.js"></script></body></html>
+?><script>ip='<?=$_SERVER['REMOTE_ADDR'];?>';<?include 'j/m.js';?></script></body></html>

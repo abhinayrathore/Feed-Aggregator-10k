@@ -1,7 +1,7 @@
 body{
   font-family: Arial, sans-serif;
   background-color: #ddd;
-  margin: 0;
+  margin: 50px 0 0 0;
 }
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
@@ -33,7 +33,11 @@ h1 span {
 nav {
   background-color: rgba(0,0,0,.7);
   padding: 5px;
-  margin-bottom: 20px;
+  position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
 }
 nav ul {
   list-style: none;
