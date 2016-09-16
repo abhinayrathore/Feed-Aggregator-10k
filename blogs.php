@@ -21,7 +21,7 @@ $BLOGS = array(
   "Misc" => array(
     "LifeHacker" => "http://lifehacker.com/rss",
     "Gizmodo" => "http://feeds.gawker.com/gizmodo/full",
-    "Gawker" => "http://feeds.gawker.com/gawker/full",
+    "The Verge" => "http://www.theverge.com/rss/frontpage",
     "Deadspin" => "http://feeds.gawker.com/deadspin/full"
   ),
   "Shop" => array(
