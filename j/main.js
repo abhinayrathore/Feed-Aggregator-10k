@@ -1,5 +1,5 @@
 (function (D) {
-  var base = 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=-1&userip='+ip+'&q=',
+  var base = '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=-1&userip='+ip+'&q=',
     dataAttribute = 'data-u';
 
   [].forEach.call(D.querySelectorAll("ul[" + dataAttribute + ']'), function(ul, index) {
