@@ -9,7 +9,7 @@
       var html = [];
 
       json.responseData.feed.entries.forEach(function(entry){
-        var imgRegex = /src="(.*?)"/gi;
+        var imgRegex = /src="https?:(.*?)"/gi;
           img = imgRegex.exec(entry.content),
           publishedDate = /^(.*?\d{4})/gi.exec(entry.publishedDate);
 
