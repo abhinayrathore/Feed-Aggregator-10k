@@ -4,6 +4,8 @@ As part of the [10k Apart Challenge](https://a-k-apart.com) I built this simple 
 
 ### Demo: http://lab.abhinayrathore.com/feed-aggregator/
 
+### [Demo on 10k Apart website](https://feed-aggregator-10kapart2016.azurewebsites.net/)
+
 ## Features:
 * Under 10kb of initial payload
 * Follows web accessibility guidelines
